@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: gainsboro;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 15px;
+        }
+
+        h1 {
+            box-shadow: inset 3px 2px 7px 1px rgba(0, 0, 0, 0.15);
+        }
+
+        nav {
+            background-color: gainsboro;
+            padding: 3px;
+            box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav > a:hover {
+            background-color: black;
+            color: white;
+            padding: 3px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(165,165,165);
+            padding: 3px;
+            font-style: italic;
+            text-align: right;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 4px 5px 2px rgba(0, 0, 0, 0.274);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 4px;
+        }
+        .textos {
+            text-align: justify;
+        }
+
+        div#bola {
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 75px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p class="textos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae optio ipsa, nisi blanditiis atque, sunt recusandae saepe quibusdam, et autem a fugiat qui amet delectus aut voluptas. Deserunt, soluta cumque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate magni pariatur placeat cupiditate. Itaque voluptates numquam deleniti odio sit. Recusandae neque, labore perferendis delectus velit ipsam facilis ex ducimus? Nostrum! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit unde quasi esse mollitia, architecto explicabo exercitationem fuga omnis cum, eos id error voluptatibus iste dolorum molestias quisquam commodi eum adipisci.</p>
+                <aside>
+                    Artigo escrito por Nathan Cita Gomes
+                </aside>
+            </article>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Nathan Cita Gomes</p>
+    </footer>
+    <div id="bola">
+        
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+@charset 'utf8';
+
+@font-face {
+    font-family: 'apple';
+    src: url(fontes/SF-Pro-Display-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0px 0px 0px;
+    font-family: 'apple', Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, black, rgb(35, 35, 35))
+}
+
+nav {
+    background-color: rgb(35, 35, 35);
+    font-weight: 100;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 25px 50px 25px;
+}
+
+main {
+    margin-top: 0px;
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    border: 1px solid rgb(100, 100, 100);
+    box-shadow: 10px 10px 15px 1px rgba(0, 0, 0, 0.308);
+}
+
+img.abx {
+    width: 80%;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+p.picture {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    padding: 25px;
+    margin: 20px;
+}
+
+main > h2 {
+    text-align: center;
+    width: 50%;
+    height: 75px;
+    margin: auto;
+    color: rgb(46, 46, 46);
+}
+
+.initial-page-p {
+    width: 90%;
+    text-align: justify;
+    text-indent: 30px;
+    margin: auto;
+
+}
+
+p > a {
+    color: rgb(40, 35, 150);
+    text-decoration: none;
+    font-weight: bold;
+}

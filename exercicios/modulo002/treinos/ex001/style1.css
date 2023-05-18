@@ -1,0 +1,42 @@
+@charset 'utf-8';
+
+body {
+    background-color: #061539;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    padding: 50px;
+}
+h1 {
+    color: #FFE3AA;
+}
+
+h2 {
+    background-color: #FFE3AA;
+    color: #061539;
+    padding: 5px 5px 5px 5px;
+}
+
+p {
+    color: gainsboro;
+    text-align: justify;
+}
+
+p.voltar {
+    text-align: center;
+}
+
+a {
+    color: gainsboro;
+    text-decoration: none;
+}
+
+a::before {
+    content: '◀️ ';
+}
+
+a:hover {
+    color: #061539;
+    background-color: #FFE3AA;
+    padding: 5px;
+    border-radius: 5px;
+}

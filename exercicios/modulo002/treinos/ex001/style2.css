@@ -1,0 +1,57 @@
+@charset 'utf-8';
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(-45deg, #0D4A4D, #1ea8af) fixed;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: justify;
+}
+
+h1 {
+    background-color: aliceblue;
+    color: #0D4A4D;
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: aliceblue;
+    color: #0D4A4D;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a::before {
+    content: '◀️ ';
+}
+
+.especial {
+    color: #0D4A4D;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: justify;
+}
+
+h5 {
+    color: aliceblue;
+    text-align: center;
+}
